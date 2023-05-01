@@ -124,5 +124,13 @@ lobby_getpunched.addEventListener('click', function () {
     menu4.style.display = "none";
     video_player10.style.display = 'block';
     video_player10.play();
-
 });
+
+
+
+const replayButton = document.getElementById("replay-button");
+
+replayButton.addEventListener("click", function() {
+  location.reload();
+});
+
